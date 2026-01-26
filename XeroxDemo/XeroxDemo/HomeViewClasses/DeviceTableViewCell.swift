@@ -8,20 +8,25 @@
 import UIKit
 
 final class DeviceTableViewCell: UITableViewCell {
-
+    
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var ipLabel: UILabel!
     @IBOutlet weak var statusLabel: UILabel!
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        statusLabel.layer.cornerRadius = 6
+        statusLabel.layer.masksToBounds = true
+        statusLabel.textAlignment = .center
+        statusLabel.font = .systemFont(ofSize: 12, weight: .semibold)
+        
         selectionStyle = .none
     }
-
+    
     func configure(with device: AirPlayDevice) {
         nameLabel.text = device.name
         ipLabel.text = device.ipAddress
-
+        
         if device.isReachable {
             statusLabel.text = "Reachable"
             statusLabel.textColor = .systemGreen

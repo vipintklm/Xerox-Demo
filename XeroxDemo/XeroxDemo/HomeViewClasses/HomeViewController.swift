@@ -16,7 +16,7 @@ final class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Home"
+        title = "Discovered Devices"
         
         setupViewModel()
         bindViewModel()
