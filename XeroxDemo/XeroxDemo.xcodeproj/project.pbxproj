@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D6D8FC5A2F23E6EF00E0D04D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D8FC382F23E6EC00E0D04D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D8FC3F2F23E6EC00E0D04D;
+			remoteInfo = XeroxDemo;
+		};
+		D6D8FC642F23E6EF00E0D04D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D8FC382F23E6EC00E0D04D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D8FC3F2F23E6EC00E0D04D;
+			remoteInfo = XeroxDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6D8FC402F23E6EC00E0D04D /* XeroxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XeroxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D8FC592F23E6EF00E0D04D /* XeroxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XeroxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D8FC632F23E6EF00E0D04D /* XeroxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XeroxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D6D8FC6B2F23E6EF00E0D04D /* Exceptions for "XeroxDemo" folder in "XeroxDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D6D8FC3F2F23E6EC00E0D04D /* XeroxDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D6D8FC422F23E6EC00E0D04D /* XeroxDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D6D8FC6B2F23E6EF00E0D04D /* Exceptions for "XeroxDemo" folder in "XeroxDemo" target */,
+			);
+			path = XeroxDemo;
+			sourceTree = "<group>";
+		};
+		D6D8FC5C2F23E6EF00E0D04D /* XeroxDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = XeroxDemoTests;
+			sourceTree = "<group>";
+		};
+		D6D8FC662F23E6EF00E0D04D /* XeroxDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = XeroxDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6D8FC3D2F23E6EC00E0D04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D8FC562F23E6EF00E0D04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D8FC602F23E6EF00E0D04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6D8FC372F23E6EC00E0D04D = {
+			isa = PBXGroup;
+			children = (
+				D6D8FC422F23E6EC00E0D04D /* XeroxDemo */,
+				D6D8FC5C2F23E6EF00E0D04D /* XeroxDemoTests */,
+				D6D8FC662F23E6EF00E0D04D /* XeroxDemoUITests */,
+				D6D8FC412F23E6EC00E0D04D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D8FC412F23E6EC00E0D04D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D8FC402F23E6EC00E0D04D /* XeroxDemo.app */,
+				D6D8FC592F23E6EF00E0D04D /* XeroxDemoTests.xctest */,
+				D6D8FC632F23E6EF00E0D04D /* XeroxDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6D8FC3F2F23E6EC00E0D04D /* XeroxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D8FC6C2F23E6EF00E0D04D /* Build configuration list for PBXNativeTarget "XeroxDemo" */;
+			buildPhases = (
+				D6D8FC3C2F23E6EC00E0D04D /* Sources */,
+				D6D8FC3D2F23E6EC00E0D04D /* Frameworks */,
+				D6D8FC3E2F23E6EC00E0D04D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D6D8FC422F23E6EC00E0D04D /* XeroxDemo */,
+			);
+			name = XeroxDemo;
+			packageProductDependencies = (
+			);
+			productName = XeroxDemo;
+			productReference = D6D8FC402F23E6EC00E0D04D /* XeroxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6D8FC582F23E6EF00E0D04D /* XeroxDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D8FC712F23E6EF00E0D04D /* Build configuration list for PBXNativeTarget "XeroxDemoTests" */;
+			buildPhases = (
+				D6D8FC552F23E6EF00E0D04D /* Sources */,
+				D6D8FC562F23E6EF00E0D04D /* Frameworks */,
+				D6D8FC572F23E6EF00E0D04D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D8FC5B2F23E6EF00E0D04D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6D8FC5C2F23E6EF00E0D04D /* XeroxDemoTests */,
+			);
+			name = XeroxDemoTests;
+			packageProductDependencies = (
+			);
+			productName = XeroxDemoTests;
+			productReference = D6D8FC592F23E6EF00E0D04D /* XeroxDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6D8FC622F23E6EF00E0D04D /* XeroxDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D8FC742F23E6EF00E0D04D /* Build configuration list for PBXNativeTarget "XeroxDemoUITests" */;
+			buildPhases = (
+				D6D8FC5F2F23E6EF00E0D04D /* Sources */,
+				D6D8FC602F23E6EF00E0D04D /* Frameworks */,
+				D6D8FC612F23E6EF00E0D04D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D8FC652F23E6EF00E0D04D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6D8FC662F23E6EF00E0D04D /* XeroxDemoUITests */,
+			);
+			name = XeroxDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = XeroxDemoUITests;
+			productReference = D6D8FC632F23E6EF00E0D04D /* XeroxDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6D8FC382F23E6EC00E0D04D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					D6D8FC3F2F23E6EC00E0D04D = {
+						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
+					};
+					D6D8FC582F23E6EF00E0D04D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D6D8FC3F2F23E6EC00E0D04D;
+					};
+					D6D8FC622F23E6EF00E0D04D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D6D8FC3F2F23E6EC00E0D04D;
+					};
+				};
+			};
+			buildConfigurationList = D6D8FC3B2F23E6EC00E0D04D /* Build configuration list for PBXProject "XeroxDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6D8FC372F23E6EC00E0D04D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6D8FC412F23E6EC00E0D04D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6D8FC3F2F23E6EC00E0D04D /* XeroxDemo */,
+				D6D8FC582F23E6EF00E0D04D /* XeroxDemoTests */,
+				D6D8FC622F23E6EF00E0D04D /* XeroxDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6D8FC3E2F23E6EC00E0D04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D8FC572F23E6EF00E0D04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D8FC612F23E6EF00E0D04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6D8FC3C2F23E6EC00E0D04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D8FC552F23E6EF00E0D04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D8FC5F2F23E6EF00E0D04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6D8FC5B2F23E6EF00E0D04D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D8FC3F2F23E6EC00E0D04D /* XeroxDemo */;
+			targetProxy = D6D8FC5A2F23E6EF00E0D04D /* PBXContainerItemProxy */;
+		};
+		D6D8FC652F23E6EF00E0D04D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D8FC3F2F23E6EC00E0D04D /* XeroxDemo */;
+			targetProxy = D6D8FC642F23E6EF00E0D04D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6D8FC6D2F23E6EF00E0D04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XeroxDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logistics.XeroxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "XeroxDemo/XeroxDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6D8FC6E2F23E6EF00E0D04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XeroxDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logistics.XeroxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "XeroxDemo/XeroxDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6D8FC6F2F23E6EF00E0D04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6D8FC702F23E6EF00E0D04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6D8FC722F23E6EF00E0D04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logistics.XeroxDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XeroxDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XeroxDemo";
+			};
+			name = Debug;
+		};
+		D6D8FC732F23E6EF00E0D04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logistics.XeroxDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XeroxDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XeroxDemo";
+			};
+			name = Release;
+		};
+		D6D8FC752F23E6EF00E0D04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logistics.XeroxDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XeroxDemo;
+			};
+			name = Debug;
+		};
+		D6D8FC762F23E6EF00E0D04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logistics.XeroxDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XeroxDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6D8FC3B2F23E6EC00E0D04D /* Build configuration list for PBXProject "XeroxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D8FC6F2F23E6EF00E0D04D /* Debug */,
+				D6D8FC702F23E6EF00E0D04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D8FC6C2F23E6EF00E0D04D /* Build configuration list for PBXNativeTarget "XeroxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D8FC6D2F23E6EF00E0D04D /* Debug */,
+				D6D8FC6E2F23E6EF00E0D04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D8FC712F23E6EF00E0D04D /* Build configuration list for PBXNativeTarget "XeroxDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D8FC722F23E6EF00E0D04D /* Debug */,
+				D6D8FC732F23E6EF00E0D04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D8FC742F23E6EF00E0D04D /* Build configuration list for PBXNativeTarget "XeroxDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D8FC752F23E6EF00E0D04D /* Debug */,
+				D6D8FC762F23E6EF00E0D04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6D8FC382F23E6EC00E0D04D /* Project object */;
+}
